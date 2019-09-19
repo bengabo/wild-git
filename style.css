@@ -1,18 +1,25 @@
-header {
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: blanchedalmond;
+    height: 150px;
+}
+
+.container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
 
 p {
     font-size: 20px;
-}
-
-section {
+    width: 400px;
     background-color: orange;
-    width: 250px;
+
 }
 
 .new-text {
-    font-weight: bold;
+    margin: 10px;
 }
